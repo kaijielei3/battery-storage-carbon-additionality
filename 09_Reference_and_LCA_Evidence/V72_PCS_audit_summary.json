@@ -1,0 +1,60 @@
+{
+  "project": "BESS power-matched PCS source-reference arithmetic",
+  "reported_mass_kg": "98",
+  "rounded_composition_sum_kg": "99",
+  "mass_reconciliation": "rounded source entries 99kg vs manufacturer and report total 98kg",
+  "single_PCS_material_kgCO2e": "1174",
+  "single_PCS_manufacturing_kgCO2e": "65",
+  "single_PCS_transport_kgCO2e": "17.2",
+  "single_PCS_sum_kgCO2e": "1256.2",
+  "scenarios": [
+    {
+      "case": "PF 1.0",
+      "power_factor": "1.0",
+      "pcs_model": "EH-0200-HA-M",
+      "count_PCS": 50,
+      "PCS_per_device_kVA_45C": "200",
+      "total_nominal_MVA": "10",
+      "nominal_active_MW": "10.0",
+      "PCS_mass_t": "4.9",
+      "PCS_material_t_CO2e": "58.7",
+      "PCS_manufacturing_energy_t_CO2e": "3.25",
+      "PCS_transport_t_CO2e": "0.86",
+      "PCS_candidate_total_t_CO2e": "62.81",
+      "minimum_AC_parallel_groups": 2,
+      "reference_transformer_count": 8,
+      "transformer_cross_EPD_t_CO2e": "153.26",
+      "BYD_module_nonuse_t_CO2e": "2275.28",
+      "cross_product_partial_total_t_CO2e": "2491.35",
+      "evidence_class": "nonharmonized source-based candidate scenario; not station GWP100"
+    },
+    {
+      "case": "PF 0.9",
+      "power_factor": "0.9",
+      "pcs_model": "EH-0200-HA-M",
+      "count_PCS": 56,
+      "PCS_per_device_kVA_45C": "200",
+      "total_nominal_MVA": "11.2",
+      "nominal_active_MW": "10.08",
+      "PCS_mass_t": "5.488",
+      "PCS_material_t_CO2e": "65.744",
+      "PCS_manufacturing_energy_t_CO2e": "3.64",
+      "PCS_transport_t_CO2e": "0.9632",
+      "PCS_candidate_total_t_CO2e": "70.3472",
+      "minimum_AC_parallel_groups": 2,
+      "reference_transformer_count": 9,
+      "transformer_cross_EPD_t_CO2e": "172.42",
+      "BYD_module_nonuse_t_CO2e": "2275.28",
+      "cross_product_partial_total_t_CO2e": "2518.0472",
+      "evidence_class": "nonharmonized source-based candidate scenario; not station GWP100"
+    }
+  ],
+  "critical_limitations": [
+    "source is consultant process estimate, not EPD",
+    "geography/time/LCIA not harmonized with BYD and Nortrafo EPD",
+    "AC parallel limit requires multi-group engineering",
+    "DC voltage and string configuration not matched to proposed module wiring",
+    "PCS could have service replacements; installation auxiliary and construction not included",
+    "no annual unrestricted UC or GWP100 net result implied"
+  ]
+}

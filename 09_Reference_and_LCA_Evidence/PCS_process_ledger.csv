@@ -1,0 +1,3 @@
+﻿case,power_factor,pcs_model,count_PCS,PCS_per_device_kVA_45C,total_nominal_MVA,nominal_active_MW,PCS_mass_t,PCS_material_t_CO2e,PCS_manufacturing_energy_t_CO2e,PCS_transport_t_CO2e,PCS_candidate_total_t_CO2e,minimum_AC_parallel_groups,reference_transformer_count,transformer_cross_EPD_t_CO2e,BYD_module_nonuse_t_CO2e,cross_product_partial_total_t_CO2e,evidence_class
+PF 1.0,1.0,EH-0200-HA-M,50,200,10,10.0,4.9,58.7,3.25,0.86,62.81,2,8,153.26,2275.28,2491.35,nonharmonized source-based candidate scenario; not station GWP100
+PF 0.9,0.9,EH-0200-HA-M,56,200,11.2,10.08,5.488,65.744,3.64,0.9632,70.3472,2,9,172.42,2275.28,2518.0472,nonharmonized source-based candidate scenario; not station GWP100

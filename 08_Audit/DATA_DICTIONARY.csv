@@ -1,0 +1,36 @@
+﻿table,variable,unit,definition
+06_Results/Annual_Hourly/pXXX_bY.csv,start_hour,hour,"Implemented-window start, 0 indexed"
+06_Results/Annual_Hourly/pXXX_bY.csv,hour_index,hour,Absolute 0 indexed hour of the 2020 leap year
+06_Results/Annual_Hourly/pXXX_bY.csv,Year,calendar year,Source time key
+06_Results/Annual_Hourly/pXXX_bY.csv,Month,month,Source time key
+06_Results/Annual_Hourly/pXXX_bY.csv,Day,day,Source time key
+06_Results/Annual_Hourly/pXXX_bY.csv,Period,1..24,Hourly period within calendar day
+06_Results/Annual_Hourly/pXXX_bY.csv,price,USD/t CO2,Direct CO2 charge in LP operating objective
+06_Results/Annual_Hourly/pXXX_bY.csv,bess,0/1,"Presence of 10 MW, 40 MWh optional battery"
+06_Results/Annual_Hourly/pXXX_bY.csv,CO2_t,t CO2 per implemented hour,Source generator direct combustion carbon emissions
+06_Results/Annual_Hourly/pXXX_bY.csv,direct_GWP100_t,t CO2e per implemented hour,Source direct CO2+27 CH4+273 N2O
+06_Results/Annual_Hourly/pXXX_bY.csv,fuel_cost_USD,USD per hour,Generator fuel plus variable operating cost in model
+06_Results/Annual_Hourly/pXXX_bY.csv,charge_MW,MW,Battery charging power during hour
+06_Results/Annual_Hourly/pXXX_bY.csv,discharge_MW,MW,Battery discharge power during hour
+06_Results/Annual_Hourly/pXXX_bY.csv,SOC_MWh,MWh,Battery state of charge at end of hour
+06_Results/Annual_Hourly/pXXX_bY.csv,load_shed_MW,MW,Aggregate shortfall after optimizer
+06_Results/Annual_Hourly/pXXX_bY.csv,max_line_ratio,ratio,Maximum absolute line flow divided by source limit
+06_Results/Annual_Hourly/pXXX_bY.csv,Spin_Up_R1_provided_MW,MW,Sum of allocated eligible generator reserve capacity for Spin_Up_R1
+06_Results/Annual_Hourly/pXXX_bY.csv,Spin_Up_R1_required_MW,MW,Official hourly minimum requirement for Spin_Up_R1
+06_Results/Annual_Hourly/pXXX_bY.csv,Spin_Up_R2_provided_MW,MW,Sum of allocated eligible generator reserve capacity for Spin_Up_R2
+06_Results/Annual_Hourly/pXXX_bY.csv,Spin_Up_R2_required_MW,MW,Official hourly minimum requirement for Spin_Up_R2
+06_Results/Annual_Hourly/pXXX_bY.csv,Spin_Up_R3_provided_MW,MW,Sum of allocated eligible generator reserve capacity for Spin_Up_R3
+06_Results/Annual_Hourly/pXXX_bY.csv,Spin_Up_R3_required_MW,MW,Official hourly minimum requirement for Spin_Up_R3
+06_Results/Annual_Hourly/pXXX_bY.csv,Flex_Up_provided_MW,MW,Sum of allocated eligible generator reserve capacity for Flex_Up
+06_Results/Annual_Hourly/pXXX_bY.csv,Flex_Up_required_MW,MW,Official hourly minimum requirement for Flex_Up
+06_Results/Annual_Hourly/pXXX_bY.csv,Flex_Down_provided_MW,MW,Sum of allocated eligible generator reserve capacity for Flex_Down
+06_Results/Annual_Hourly/pXXX_bY.csv,Flex_Down_required_MW,MW,Official hourly minimum requirement for Flex_Down
+06_Results/Annual_Hourly/pXXX_bY.csv,Reg_Up_provided_MW,MW,Sum of allocated eligible generator reserve capacity for Reg_Up
+06_Results/Annual_Hourly/pXXX_bY.csv,Reg_Up_required_MW,MW,Official hourly minimum requirement for Reg_Up
+06_Results/Annual_Hourly/pXXX_bY.csv,Reg_Down_provided_MW,MW,Sum of allocated eligible generator reserve capacity for Reg_Down
+06_Results/Annual_Hourly/pXXX_bY.csv,Reg_Down_required_MW,MW,Official hourly minimum requirement for Reg_Down
+06_Results/Annual_Overview/V84_Annual_Main_Results.csv,baseline_CO2_t,t CO2,Annual no-storage arm direct CO2
+06_Results/Annual_Overview/V84_Annual_Main_Results.csv,battery_CO2_t,t CO2,Annual storage arm direct CO2
+06_Results/Annual_Overview/V84_Annual_Main_Results.csv,avoided_CO2_t,t CO2,Baseline minus storage annual direct CO2
+06_Results/Annual_Overview/V84_Annual_Main_Results.csv,avoided_direct_GWP100_t,t CO2e,Baseline minus storage annual direct combustion GWP100
+06_Results/Annual_Overview/V84_Annual_Main_Results.csv,interaction_vs_zero_t,t CO2,Price-specific storage avoided CO2 minus the zero-price avoided CO2

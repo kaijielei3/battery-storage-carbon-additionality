@@ -1,0 +1,9 @@
+﻿ref_number,DOI,journal,checked_evidence,relevance
+1,10.1021/es505027p,Environmental Science & Technology,publisher/PubMed,Storage can increase system emissions
+3,10.1016/j.joule.2021.04.010,Joule,publisher,Application- and policy-dependent effects
+4,10.1021/acs.est.0c01861,Environmental Science & Technology,publisher/PubMed,"System optimization, carbon policy and LCA"
+5,10.1021/acs.est.9b06231,Environmental Science & Technology,publisher/PubMed,Battery storage LCA and electricity services
+6,10.1021/acs.est.8b02171,Environmental Science & Technology,publisher/PubMed,Use-phase and battery lifecycle coupling
+19,10.1109/TPWRS.2025.3638908,IEEE Transactions on Power Systems,IEEE Xplore,Long-horizon unit commitment bounds and solver distinction
+21,10.1038/s41467-024-54634-y,Nature Communications,publisher/PubMed,Manufacturing carbon factor distributions
+24,10.1039/D5YA00341E,Energy Advances,publisher,Power conversion and BOS process inventories

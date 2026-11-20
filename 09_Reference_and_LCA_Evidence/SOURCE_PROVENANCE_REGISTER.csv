@@ -1,0 +1,9 @@
+﻿item,archive_or_source,role,evidence_note
+RTS-GMLC 2020 source inputs,V77_RTS_SELECTED_UPLOAD.zip,Official 73 bus/120 branch/158 record test case with original availability and parameter tables,User archived original source ZIP; archive hash in final manifest
+RTS-GMLC seven reserve time series,V82_RTS_RESERVES_UPLOAD.zip,Seven original products; four daily-wide and three hourly-long series standardized to hourly,Original raw and normalized files coexist inside ZIP
+Annual solutions,06_Results/Annual_Window_Records,212 successful implemented window triplets; state vector archives and metadata,Original optimization checkpoints with 53 windows per arm
+Annual system hourly outcomes,06_Results/Annual_Hourly,"Four 8,784-row hourly results; 30 columns each",Directly reaggregated by verify_release.py
+Seasonal outputs,07_Seasonal_Results,32 matched arm cases over four 168 hour windows,"Price set 0,25,75,200"
+Module hardware process,BYD EPD [32],32.2 kWh module source stage declaration,"External primary product document linked from reference register, original PDF not bundled"
+PCS hardware process,PCS_process_ledger.csv,50 or 56 PCS units candidate process only,"DNV process source identified in bibliography, not matched whole plant"
+Transformer hardware process,Nortrafo EPD [33],Power matched alternative equipment counts,"External primary product document linked from reference register, original PDF not bundled"

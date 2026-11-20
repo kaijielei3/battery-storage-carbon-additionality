@@ -1,0 +1,62 @@
+﻿test,pass_flag,observed,criterion
+p0_b0_windows,True,53,53 complete windows
+p0_b0_all_solver_optimal,True,53,53 solver optima
+p0_b0_8784,True,8784,every hour 0..8783 exactly once
+p0_b0_no_shedding,True,0.0,<1e-6 MW
+p0_b0_no_line_overload,True,1.0,<=1.000001
+p0_b0_SOC_range,True,20.000000..20.000000,8..40 MWh
+p0_b0_SOC_terminal_each_window,True,0.0,absolute terminal SOC difference <= 1e-6
+p0_b0_not_simultaneous_bess,True,0,0 simultaneous hours
+p0_b0_charge_power,True,0.0,<=10 MW
+p0_b0_discharge_power,True,0.0,<=10 MW
+p0_b0_eq_resid,True,1.4404264447875903e-09,<1e-5
+p0_b0_ineq_resid,True,2.842170943040401e-14,<1e-5
+p0_b0_reserve_all_7,True,-1.4210854715202004e-14,every hourly product requirement met
+p0_b0_ramp_restart_hash_chain,True,True,all windows linked by prior generator vector
+p0_b0_hourly_json_CO2_sum,True,5.820766091346741e-11,<1e-5 t each window
+p0_b1_windows,True,53,53 complete windows
+p0_b1_all_solver_optimal,True,53,53 solver optima
+p0_b1_8784,True,8784,every hour 0..8783 exactly once
+p0_b1_no_shedding,True,0.0,<1e-6 MW
+p0_b1_no_line_overload,True,1.0,<=1.000001
+p0_b1_SOC_range,True,8.000000..40.000000,8..40 MWh
+p0_b1_SOC_terminal_each_window,True,0.0,absolute terminal SOC difference <= 1e-6
+p0_b1_not_simultaneous_bess,True,0,0 simultaneous hours
+p0_b1_charge_power,True,10.0,<=10 MW
+p0_b1_discharge_power,True,10.0,<=10 MW
+p0_b1_eq_resid,True,1.4404264447875903e-09,<1e-5
+p0_b1_ineq_resid,True,2.842170943040401e-14,<1e-5
+p0_b1_reserve_all_7,True,-4.263256414560601e-14,every hourly product requirement met
+p0_b1_ramp_restart_hash_chain,True,True,all windows linked by prior generator vector
+p0_b1_hourly_json_CO2_sum,True,5.820766091346741e-11,<1e-5 t each window
+p25_b0_windows,True,53,53 complete windows
+p25_b0_all_solver_optimal,True,53,53 solver optima
+p25_b0_8784,True,8784,every hour 0..8783 exactly once
+p25_b0_no_shedding,True,0.0,<1e-6 MW
+p25_b0_no_line_overload,True,1.0,<=1.000001
+p25_b0_SOC_range,True,20.000000..20.000000,8..40 MWh
+p25_b0_SOC_terminal_each_window,True,0.0,absolute terminal SOC difference <= 1e-6
+p25_b0_not_simultaneous_bess,True,0,0 simultaneous hours
+p25_b0_charge_power,True,0.0,<=10 MW
+p25_b0_discharge_power,True,0.0,<=10 MW
+p25_b0_eq_resid,True,1.85828241683339e-09,<1e-5
+p25_b0_ineq_resid,True,2.842170943040401e-14,<1e-5
+p25_b0_reserve_all_7,True,-4.263256414560601e-14,every hourly product requirement met
+p25_b0_ramp_restart_hash_chain,True,True,all windows linked by prior generator vector
+p25_b0_hourly_json_CO2_sum,True,5.820766091346741e-11,<1e-5 t each window
+p25_b1_windows,True,53,53 complete windows
+p25_b1_all_solver_optimal,True,53,53 solver optima
+p25_b1_8784,True,8784,every hour 0..8783 exactly once
+p25_b1_no_shedding,True,0.0,<1e-6 MW
+p25_b1_no_line_overload,True,1.0,<=1.000001
+p25_b1_SOC_range,True,8.000000..40.000000,8..40 MWh
+p25_b1_SOC_terminal_each_window,True,0.0,absolute terminal SOC difference <= 1e-6
+p25_b1_not_simultaneous_bess,True,0,0 simultaneous hours
+p25_b1_charge_power,True,10.0,<=10 MW
+p25_b1_discharge_power,True,10.0,<=10 MW
+p25_b1_eq_resid,True,1.85828241683339e-09,<1e-5
+p25_b1_ineq_resid,True,5.684341886080802e-14,<1e-5
+p25_b1_reserve_all_7,True,-4.263256414560601e-14,every hourly product requirement met
+p25_b1_ramp_restart_hash_chain,True,True,all windows linked by prior generator vector
+p25_b1_hourly_json_CO2_sum,True,5.820766091346741e-11,<1e-5 t each window
+independent_annual_pairing_complete,True,2,0 and 25 USD/t pairs

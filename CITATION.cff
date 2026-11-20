@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use the data or code in this repository, please cite the repository and the associated research work."
+title: "Research data and code for carbon pricing and the climate additionality of grid-scale battery storage"
+version: 1.0.0
+date-released: 2026-11-20
+authors:
+  - family-names: Lei
+    given-names: Kaijie
+    orcid: "https://orcid.org/0009-0003-0882-6122"
+    affiliation: "The Chinese University of Hong Kong, Shenzhen"
+keywords:
+  - battery energy storage
+  - carbon pricing
+  - electricity dispatch
+  - operating reserves
+  - life cycle assessment
+  - RTS-GMLC
+abstract: >-
+  Chronological, network-constrained economic-dispatch simulations of a 10 MW,
+  40 MWh battery in the 2020 RTS-GMLC test system, with annual and seasonal
+  outputs, model code, source-input archives, and independent validation records.

@@ -1,0 +1,59 @@
+﻿check,status,observed,criterion
+p000_b0_8784_unique_hours,PASS,8784,8784 hours in original order
+p000_b0_official_2020_calendar,PASS,complete,2020 leap year; 366 days
+p000_b0_no_shedding,PASS,max MW 0.0,<=1e-6 MW
+p000_b0_line_ratings,PASS,max 1.00000000,<=1.000001
+p000_b0_soc_bounds,PASS,"20.000000, 20.000000","[8,40] MWh"
+p000_b0_charge_discharge_caps_and_overlap,PASS,0.000000 MW; overlap 0,"<=10 MW, no overlap"
+p000_b0_battery_absent,PASS,0 energy,charge=discharge=0
+p000_b0_soc_hourly_recursion,PASS,max residual 0,<2e-5 MWh
+p000_b0_soc_endpoints_53,PASS,0 mismatches,20 MWh at each boundary
+p000_b0_seven_reserve_hourly_adequacy,PASS,min margin -1.42109e-14; violations 0,all products meet official requirements
+p000_b0_53_window_source_records,PASS,"53 complete windows, 0 mismatches",53 complete CSV/JSON/NPZ triplets
+p000_b0_solver_optima_and_residuals,PASS,53 window metrics,"optimal, residual<1e-5"
+p000_b0_binary_state_hash_chain,PASS,0 discontinuities,all window metadata linked to prior saved generator state
+p000_b1_8784_unique_hours,PASS,8784,8784 hours in original order
+p000_b1_official_2020_calendar,PASS,complete,2020 leap year; 366 days
+p000_b1_no_shedding,PASS,max MW 0.0,<=1e-6 MW
+p000_b1_line_ratings,PASS,max 1.00000000,<=1.000001
+p000_b1_soc_bounds,PASS,"8.000000, 40.000000","[8,40] MWh"
+p000_b1_charge_discharge_caps_and_overlap,PASS,10.000000 MW; overlap 0,"<=10 MW, no overlap"
+p000_b1_soc_hourly_recursion,PASS,max residual 1.42e-14,<2e-5 MWh
+p000_b1_soc_endpoints_53,PASS,0 mismatches,20 MWh at each boundary
+p000_b1_seven_reserve_hourly_adequacy,PASS,min margin -4.26326e-14; violations 0,all products meet official requirements
+p000_b1_53_window_source_records,PASS,"53 complete windows, 0 mismatches",53 complete CSV/JSON/NPZ triplets
+p000_b1_solver_optima_and_residuals,PASS,53 window metrics,"optimal, residual<1e-5"
+p000_b1_binary_state_hash_chain,PASS,0 discontinuities,all window metadata linked to prior saved generator state
+p025_b0_8784_unique_hours,PASS,8784,8784 hours in original order
+p025_b0_official_2020_calendar,PASS,complete,2020 leap year; 366 days
+p025_b0_no_shedding,PASS,max MW 0.0,<=1e-6 MW
+p025_b0_line_ratings,PASS,max 1.00000000,<=1.000001
+p025_b0_soc_bounds,PASS,"20.000000, 20.000000","[8,40] MWh"
+p025_b0_charge_discharge_caps_and_overlap,PASS,0.000000 MW; overlap 0,"<=10 MW, no overlap"
+p025_b0_battery_absent,PASS,0 energy,charge=discharge=0
+p025_b0_soc_hourly_recursion,PASS,max residual 0,<2e-5 MWh
+p025_b0_soc_endpoints_53,PASS,0 mismatches,20 MWh at each boundary
+p025_b0_seven_reserve_hourly_adequacy,PASS,min margin -4.26326e-14; violations 0,all products meet official requirements
+p025_b0_53_window_source_records,PASS,"53 complete windows, 0 mismatches",53 complete CSV/JSON/NPZ triplets
+p025_b0_solver_optima_and_residuals,PASS,53 window metrics,"optimal, residual<1e-5"
+p025_b0_binary_state_hash_chain,PASS,0 discontinuities,all window metadata linked to prior saved generator state
+p025_b1_8784_unique_hours,PASS,8784,8784 hours in original order
+p025_b1_official_2020_calendar,PASS,complete,2020 leap year; 366 days
+p025_b1_no_shedding,PASS,max MW 0.0,<=1e-6 MW
+p025_b1_line_ratings,PASS,max 1.00000000,<=1.000001
+p025_b1_soc_bounds,PASS,"8.000000, 40.000000","[8,40] MWh"
+p025_b1_charge_discharge_caps_and_overlap,PASS,10.000000 MW; overlap 0,"<=10 MW, no overlap"
+p025_b1_soc_hourly_recursion,PASS,max residual 1.07e-14,<2e-5 MWh
+p025_b1_soc_endpoints_53,PASS,0 mismatches,20 MWh at each boundary
+p025_b1_seven_reserve_hourly_adequacy,PASS,min margin -4.26326e-14; violations 0,all products meet official requirements
+p025_b1_53_window_source_records,PASS,"53 complete windows, 0 mismatches",53 complete CSV/JSON/NPZ triplets
+p025_b1_solver_optima_and_residuals,PASS,53 window metrics,"optimal, residual<1e-5"
+p025_b1_binary_state_hash_chain,PASS,0 discontinuities,all window metadata linked to prior saved generator state
+p000_paired_CO2_accounts,PASS,-980.649527,matches raw annual overview within 1e-5 t
+p000_paired_direct_GWP100_accounts,PASS,-993.533488,matches annual overview
+p025_paired_CO2_accounts,PASS,4328.942948,matches raw annual overview within 1e-5 t
+p025_paired_direct_GWP100_accounts,PASS,4362.014480,matches annual overview
+carbon_price_interaction,PASS,5309.592475,same asset / same conditions under each policy
+p000_monthly_adds_to_annual,PASS,-980.649527,12 monthly totals = annual
+p025_monthly_adds_to_annual,PASS,4328.942948,12 monthly totals = annual
+seasonal_16_matched_pairs,PASS,16,"4 seasons x 4 prices, two arms per pair"

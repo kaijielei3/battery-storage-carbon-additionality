@@ -1,0 +1,19 @@
+Package validation summary
+==========================
+
+Independent checks: 66
+Passed: 66
+Failed: 0
+
+Annual avoided direct CO2:
+- USD 0/t: -980.649527038 t
+- USD 25/t: 4328.942948339 t
+
+Carbon-price interaction: 5309.592475376 t CO2
+
+A one-window rerun test was also run for the first 168-hour window at USD 0/t,
+for both no-storage and storage arms. Both CO2 totals matched the archived first-window
+records exactly in the tested environment.
+
+This is a validation of the archived records and a one-window solver smoke test.
+It is not a claim that all 212 annual LP windows were rerun during package preparation.

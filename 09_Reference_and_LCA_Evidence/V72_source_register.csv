@@ -1,0 +1,7 @@
+﻿source,role,url,locator,evidence_state
+DNV 2024,"Consulting LCA report, model and rounded kgCO2e process inventory; not an EPD",https://planning.sholland.gov.uk/OcellaWeb/viewDocument?file=dv_pl_files%5CH16-0596-24%5CBattery+Box+Life+Cycle+Assessment+%28Grange+Box%29+-+DNV+Report+Feb+2024+V3.pdf&module=pl,"Report 10482424-1 Rev.3, PDF pp. 8-10 and Appendix A",source viewed; process ledger extracted
+Sineng 2024,"Manufacturer equipment rating 200kVA at 45C, 98kg, max 40 parallel in one group",https://en.si-neng.com/Public/Uploads/uploadfile/files/20240129/EH0200HAM1.pdf,"Data sheet, 1-page PDF",source viewed; rate confirmed
+ENA 2024,Model EH-0200-HA-M register 200kW,https://www.ena-eng.org/gen-ttr/Index?Action=ViewDetail&EID=128595337&tab=search,Legacy Type Test Register listing,register viewed; supporting device check
+Jasper et al. 2026,BOS-inclusive peer-reviewed container LCA and reference powers; NOT scaled into target station,https://doi.org/10.1039/D5YA00341E,"Energy Advances 5, 550-570",publisher article viewed
+Jasper raw SI,"Public original SI workbook, to be admitted only after byte/hash and process inspection",https://zenodo.org/records/17651912,"Jasper 2026 SI.xlsx, published MD5 e6bc45da878b8d663a6d870410f8f2b4",repository metadata confirmed; workbook not downloaded in this execution
+RTS-GMLC official,Official test system and hydro day-ahead semantics,https://github.com/GridMod/RTS-GMLC,RTS_GMLC source repository,"background source, NOT a re-run of full annual UC"

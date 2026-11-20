@@ -1,0 +1,16 @@
+{
+  "checks": 58,
+  "passed": 58,
+  "failed": [],
+  "annual_summary": {
+    "p000": {
+      "avoided_direct_CO2_t": -980.6495270375162,
+      "avoided_direct_GWP100_t": -993.5334883928299
+    },
+    "p025": {
+      "avoided_direct_CO2_t": 4328.942948338576,
+      "avoided_direct_GWP100_t": 4362.014480164275
+    }
+  },
+  "interaction_CO2_t": 5309.592475376092
+}

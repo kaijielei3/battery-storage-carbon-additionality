@@ -1,0 +1,11 @@
+{
+  "hours_completed": 8784,
+  "required_hours": 8784,
+  "complete": true,
+  "CO2_partial_t": 8044091.029406819,
+  "direct_GWP100_partial_t": 8053264.660910808,
+  "nwindows": 53,
+  "model": "seven-product DC ED with ramp and 168h end SOC; not UC",
+  "source_sha256": "4c2a95d1db6559d5ffffac96c5ee2cdabf041b725c88a2cf824cddefef162cfc",
+  "reserve_sha256": "ad8ba768e0fadcc88620b052461615b695547b068eaa69b8387c4ec5b82bc52b"
+}

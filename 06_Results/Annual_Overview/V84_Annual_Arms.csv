@@ -1,0 +1,5 @@
+price,bess,CO2_t,direct_GWP100_t,MWh_charge,MWh_discharge,SOC_min,SOC_max,hours,window_count,run_type
+0,0,16557190.493018528,16637051.05603008,0.0,0.0,20.0,20.0,8784,53,"2020 chronological 168h ED policy; 7 separate products, not UC"
+0,1,16558171.142545566,16638044.589518473,6998.403999991403,5948.643399992692,8.0,40.0,8784,53,"2020 chronological 168h ED policy; 7 separate products, not UC"
+25,0,8044091.029406819,8053264.660910808,0.0,0.0,20.0,20.0,8784,53,"2020 chronological 168h ED policy; 7 separate products, not UC"
+25,1,8039762.086458481,8048902.646430645,9768.496797093714,8303.222277529658,8.0,40.0,8784,53,"2020 chronological 168h ED policy; 7 separate products, not UC"
